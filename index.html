@@ -3,11 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oscar Hanke - Software Engineering Intern</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p1></p1>
+    <header>
+        <h1>Oscar Hanke</h1>
+        <p>Third-year Business and Computer Science at UBC. Seeking Summer 2027 software engineering internships.</p>
+        <p>
+            <a href="https://github.com/oscar-hanke">GitHub</a> ·
+            <a href="https://www.linkedin.com/in/oscar-hanke-a0073237a/">LinkedIn</a> ·
+            <a href="test">Resume</a>
+        </p>
+    </header>
+    
+
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <p>I am a third-year UBC student completing a combined major in business and computer science, a program that splits coursework between the Sauder School of Business and the Department
+            of Computer Science. In practice that means I spend as much time thinking about who might be helped by a project, as I spend thinking about how it'll be built. The projects I'm most
+            drawn to are the ones where those two questions collide. Right now I'm looking for a Summer 2027 software engineering internship. Outside of school, I train for triathlons.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Insight UBC - Query manager, UBC-V CPSC 310 (team of two)</h3>
+                <p>An application that allows students to query a dataset of UBC course sections and rooms. Given it was our first time being exposed to JSON queries, we went beyond the scope of 
+                the assignment with a query builder that generates syntactically valid JSON queries from dropdown selections, so users can learn the query language by watching it form in front of them. 
+                Code available on request</p>
+            </article>
+                
+            <article>
+                <h3>Resume Keyword Matcher - Python-based personal project</h3>
+                <p>A command-line tool that compares a resume against a job description, reporting skills the job looks for, which ones the resume demonstrates, and which ones are missing.
+                I built it after learning that applicant tracking systems screen resumes by keyword. The interesting problem was precision by matching against a curated skill vocabulary 
+                rather than filtering out stopwords and fluff, and handling terms like C++ where standard word boundaries fail. Take a look at my README for more on my design choices: 
+                <a href="https://github.com/oscar-hanke/Resume_Keyword_Matcher">GitHub</a></p>
+            </article>
+
+            <article>
+                <h3>Supernaturals Talent Agency - Business proposal, UBC-V COMM 396</h3>
+                <p>A proposal for an agency that represents Indigenous talent to lead educational and community-engaged events at public facilities across Metro Vancouver. 
+                The assignment asked for a written document with supporting visuals for a business idea that would benefit local Indigenous communities. I judged that a board or investor 
+                audience would engage differently with a designed experience than a document, so I built the proposal as an interactive website on Squarespace instead. While it didn't
+                require much of any coding, this project was what inspired me to learn some HTML down the line, and ultimately was the prequel for the website you're on right now. </p>
+            </article>
+
+            <article>
+                <h3>Grass Field Management System - DBMS, UBC-V CPSC 304 (team of three)</h3>
+                <p>A reservation and maintenance system for municipal sports fields in which we incorporated relational database theory. Park managers can observe and query 
+                the status and analytics of parks, resolve active issues, and create private reservations. I designed ER diagrams mapping out entities, their keys, attributes, and relationships. 
+                I also drew out and normalized functional dependencies to follow BCNF and 3NF. Finally, I implemented the delete, query, and nested aggregation functions. Code available on request</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>email</p>
+    </footer>
 </body>
 </html>
